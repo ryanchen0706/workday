@@ -1,0 +1,76 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid #405186;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid #374d91;
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #394a7a;
+  }
+  
+  .past {
+    background-color: #d3b142;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ce3c10;
+    color: white;
+  }
+  
+  .future {
+    background-color: #46aa56;
+    color: white;
+  }
+  
+  .saveBtn {
+    border: 1px solid #c54a4a;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #214869;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 25px;
+    transition: all .3s ease-in-out;
+  }
+  
